@@ -7,4 +7,7 @@ node {
 
   stage 'deploy'
   sh './deploy.sh'
+  
+  stage 'Verification'
+  echo "Successful..!"
 }
